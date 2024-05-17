@@ -1,0 +1,50 @@
+.talk {
+  height: 577px;
+  width: 100%;
+  background: #e3eeed;
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    max-width: 423px;
+    color: #214e41;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    padding-bottom: 46px;
+  }
+
+  &__name {
+    color: #214e41;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    padding-bottom: 60px;
+  }
+  &__btn {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.02px;
+    border-radius: 6px;
+    border: 1px solid #43806c;
+    background: #43806c;
+    padding: 13px 24px;
+  }
+  &__part1 {
+    width: 50%;
+  }
+  &__part2 {
+    padding-left: 120px;
+    width: 50%;
+  }
+}

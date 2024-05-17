@@ -1,0 +1,45 @@
+.proud {
+  width: 100%;
+  &__title {
+    color: #214e41;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+    padding-top: 120px;
+    padding-bottom: 110px;
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 119px;
+    gap: 40px;
+  }
+  &__name {
+    color: #43806c;
+    font-family: Raleway;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 163.636% */
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  &__nick {
+    color: #214e41;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+  }
+  &__flex {
+    display: flex;
+    gap: 80px;
+  }
+}

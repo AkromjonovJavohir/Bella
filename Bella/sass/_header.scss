@@ -1,0 +1,101 @@
+.header {
+  background-image: url(../pct/Rectangle.png);
+  height: calc(100vh - 90px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &__title {
+    max-width: 516px;
+    color: #214e41;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    padding-top: 100px;
+  }
+
+  &__name {
+    color: #214e41;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+
+  &__message {
+    max-width: 403px;
+    height: 60px;
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  &__input {
+    background: none;
+    width: 280px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+  }
+
+  &__btn {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 0px 6px 6px 0px;
+    background: #43806c;
+    border: 0;
+    width: 118.9px;
+    height: 59px;
+  }
+}
+
+.header__card {
+  width: 1200px;
+  height: 171px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 1px 1px 4px 0px rgba(232, 230, 230, 0.6);
+  position: absolute;
+  bottom: -85px;
+}
+
+.header__card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.card__box {
+  width: 33.3%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    color: #214e41;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  &__text {
+    color: #214e41;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 276px;
+  }
+}

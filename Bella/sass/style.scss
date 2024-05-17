@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
+ul,
+li {
+  color: inherit;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:active {
+  opacity: 0.5;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+@import "./navbar";
+@import "./header";
+@import "./procces";
+@import "./menu";
+@import "./covarage";
+@import "./project";
+@import "./employer";
+@import "./proud";
+@import "./talk";
+@import "./end";

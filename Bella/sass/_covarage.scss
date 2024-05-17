@@ -1,0 +1,71 @@
+.covarage {
+  padding-bottom: 60px;
+  width: 100%;
+  &__content {
+    display: flex;
+  }
+  &__part1 {
+    width: 50%;
+  }
+  &__part2 {
+    width: 50%;
+    padding-top: 120px;
+  }
+  &__title {
+    color: #43806c;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+  &__name {
+    padding-bottom: 34px;
+    color: #214e41;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+    max-width: 556px;
+  }
+  &__text {
+    color: #757575;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.02px;
+    max-width: 551px;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 59px;
+  }
+  &__price {
+    color: #f0a446;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+  }
+  &__message {
+    max-width: 239px;
+    color: #214e41;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 169.231% */
+    letter-spacing: 0.02px;
+    padding-bottom: 119px;
+  }
+}
